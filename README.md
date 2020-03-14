@@ -30,10 +30,10 @@ and the ECFD between two distributions is given by
 
 ### Generating samples from pre-trained models
 
-* Download the pre-trained models from releases.
+* Download the pre-trained generators from releases.
 * Run the following command to generate an 8x8 grid of samples from a model trained on CIFAR10 dataset:
 ```bash
-python gen_samples.py\
+python src/gen_samples.py\
  --png\
  --imsize 32\
  --noise_dim 32\
@@ -46,7 +46,7 @@ python gen_samples.py\
 
 * **Downloading Datasets**: All the datasets will download by themselves when the code is run, except CelebA. CelebA can be downloaded by executing `python download.py celebA`. Rename the directory `./data/img_align_celeba` to `./data/celebA` after the script finishes execution.
 * Run `python src/main.py --help` to see a description of all the available command-line arguments.
-* Run the following command to train OCFGAN-GP on the CIFAR10 dataset:
+* **Example**: run the following command to train on the CIFAR10 dataset:
 ```bash
 python src/main.py\
  --dataset cifar10\
@@ -81,3 +81,10 @@ For any questions regarding the code or the paper, please email me at [abdulfati
   year={2020}
 }
 ```
+
+#### Acknowledgements
+Parts of the code/network structures in this repository have been adapted from the following repos:
+
+* [ozanciga/gans-with-pytorch](https://github.com/ozanciga/gans-with-pytorch)
+* [OctoberChang/MMD-GAN](https://github.com/OctoberChang/MMD-GAN)
+* [mbinkowski/MMD-GAN](https://github.com/mbinkowski/MMD-GAN)
