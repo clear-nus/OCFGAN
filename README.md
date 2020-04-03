@@ -1,5 +1,9 @@
 # OCFGAN-GP
 
+![preprint](https://img.shields.io/static/v1?label=arXiv&message=1909.07425&color=B31B1B&link=https://arxiv.org/abs/1909.07425)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Venue:CVPR 2020](https://img.shields.io/badge/Venue-CVPR%202020-007CFF)
+
 This repository contains code for the CVPR 2020 paper (Oral) *[A Characteristic Function Approach to Deep Implicit Generative Modeling](https://arxiv.org/abs/1909.07425)*. In this paper, we propose a method of training a Generative Adversarial Network (GAN) by minimizing the expected distance between empirical characteristic functions of the real and generated data distributions. The generator seeks to minimize what we term as the Empirical Characteristic Function Distance (ECFD), whereas the discriminator maximizes it. Given samples from a distribution, the empirical characteristic function is given by
 <p align="center">
   <img src="./imgs/ecf.png" width="250">
