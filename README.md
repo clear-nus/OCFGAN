@@ -1,6 +1,6 @@
 # OCFGAN-GP
 
-![preprint](https://img.shields.io/static/v1?label=arXiv&message=1909.07425&color=B31B1B&link=https://arxiv.org/abs/1909.07425)
+[![preprint](https://img.shields.io/static/v1?label=arXiv&message=1909.07425&color=B31B1B)](https://arxiv.org/abs/1909.07425)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Venue:CVPR 2020](https://img.shields.io/badge/Venue-CVPR%202020-007CFF)
 
